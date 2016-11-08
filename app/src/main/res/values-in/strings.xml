@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pemasukan Pengeluaran</string>
+    <string name="et_hint1">Pemasukan </string>
+    <string name="et_hint2">Pengeluaran </string>
+    <string name="tv_string1">Saldo :</string>
+    <string name="btn_number1">1</string>
+    <string name="btn_number2">2</string>
+    <string name="btn_number3">3</string>
+    <string name="btn_number4">4</string>
+    <string name="btn_number5">5</string>
+    <string name="btn_number6">6</string>
+    <string name="btn_number7">7</string>
+    <string name="btn_number8">8</string>
+    <string name="btn_number9">9</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_number0">0</string>
+    <string name="btn_numbero">0</string>
+    <string name="Button">button</string>
+    <string name="tv_string2">Isi</string>
+</resources>

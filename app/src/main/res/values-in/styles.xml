@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="et_income">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:ellipsize">start</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:hint">@string/et_hint1</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="et_outcome">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:ellipsize">start</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:hint">@string/et_hint2</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="tv_balance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">0.35</item>
+    </style>
+
+    <style name="tv_isi">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">0.35</item>
+    </style>
+
+    <style name="btn_number1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_number1</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+    <style name="btn_number2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_number2</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+    <style name="btn_number3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_number3</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+    <style name="btn_number4">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_number4</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+    <style name="btn_number5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_number5</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+    <style name="btn_number6">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_number6</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+    <style name="btn_number7">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_number7</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+    <style name="btn_number8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_number8</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+    <style name="btn_number9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_number9</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+    <style name="btn_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_button</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+    <style name="btn_number0">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_number0</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+    <style name="btn_delete">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/btn_delete</item>
+        <item name="android:layout_weight">0.28</item>
+    </style>
+
+
+</resources>
