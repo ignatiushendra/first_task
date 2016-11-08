@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="263dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <EditText
+                style="@style/et_income"
+                android:id="@+id/et_income"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="80dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <EditText
+                style="@style/et_outcome"
+                android:id="@+id/et_outcome" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <TextView
+                style="@style/tv_balance"
+                android:id="@+id/tv_balance"
+                android:text="@string/tv_string1"
+                />
+
+            <TextView
+                style="@style/tv_isi"
+                android:text="@string/tv_string2"
+                android:id="@+id/textView3"
+                />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="40dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:weightSum="1">
+
+            <Button
+                style="@style/btn_number1"
+                android:text="@string/btn_number1"
+                android:id="@+id/btn_number1"
+                />
+
+            <Button
+                style="@style/btn_number2"
+                android:text="@string/btn_number2"
+                android:id="@+id/btn_number2"
+                />
+
+            <Button
+                style="@style/btn_number3"
+                android:text="@string/btn_number3"
+                android:id="@+id/btn_number3"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:weightSum="1">
+
+            <Button
+                style="@style/btn_number4"
+                android:text="@string/btn_number4"
+                android:id="@+id/btn_number4"
+                />
+
+            <Button
+                style="@style/btn_number5"
+                android:text="@string/btn_number5"
+                android:id="@+id/btn_number5"
+                />
+
+            <Button
+                style="@style/btn_number6"
+                android:text="@string/btn_number6"
+                android:id="@+id/btn_number6"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:weightSum="1">
+
+            <Button
+                style="@style/btn_number7"
+                android:text="@string/btn_number7"
+                android:id="@+id/btn_number7"
+                />
+
+            <Button
+                style="@style/btn_number8"
+                android:text="@string/btn_number8"
+                android:id="@+id/btn_number8"
+                />
+
+            <Button
+                style="@style/btn_number9"
+                android:text="@string/btn_number9"
+                android:id="@+id/btn_number9"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:weightSum="1">
+
+            <Button
+                style="@style/btn_button"
+                android:text="@string/Button"
+                android:id="@+id/btn_button"
+                />
+
+            <Button
+                style="@style/btn_number0"
+                android:text="@string/btn_numbero"
+                android:id="@+id/btn_number0"
+                />
+
+            <Button
+                style="@style/btn_delete"
+                android:text="@string/btn_delete"
+                android:id="@+id/btn_delete"
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
