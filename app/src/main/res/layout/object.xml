@@ -3,10 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    tools:context="com.example.oktapspta.firsttask.objectMain">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -69,7 +71,11 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/floatingActionButton"
                 android:layout_gravity="bottom|left"
-                android:layout_margin="@dimen/fab_margin"/>
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@color/colorAccent"
+                app:fabSize="normal"
+                android:src="@drawable/ic_action_balance"
+                />
         </android.support.design.widget.CoordinatorLayout>
     </FrameLayout>
 
