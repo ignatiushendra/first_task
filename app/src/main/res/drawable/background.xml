@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
 
-    <corners android:radius="30dp" />
+    <corners android:bottomLeftRadius="@dimen/radius_lft_btm"
+     android:bottomRightRadius="@dimen/radius_rgt_btm"/>
     <solid android:color="@color/background" />
 
 </shape>
