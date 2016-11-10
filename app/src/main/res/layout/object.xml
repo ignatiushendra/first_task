@@ -2,7 +2,6 @@
 <LinearLayout
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -12,8 +11,8 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="263dp">
-
+        android:layout_height="263dp"
+        android:background="@drawable/background">
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -77,6 +76,7 @@
                 android:src="@drawable/ic_action_balance"
                 />
         </android.support.design.widget.CoordinatorLayout>
+
     </FrameLayout>
 
     <FrameLayout
